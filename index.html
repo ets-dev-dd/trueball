@@ -25,10 +25,14 @@ body {
   padding: 3rem 2.5rem;
   text-align: center;
 }
-.logo-emoji {
-  font-size: 5rem;
+.logo {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 14px;
   margin-bottom: 1.4rem;
-  display: block;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+  object-fit: contain;
 }
 h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.4rem; color: #1a1a2e; }
 .tagline { color: #555; font-size: 1.05rem; margin-bottom: 1.5rem; }
@@ -51,7 +55,7 @@ footer a:hover { text-decoration: underline; }
 </head>
 <body>
 <div class="card">
-  <span class="logo-emoji">&#9917;</span>
+  <img src="logo.png" alt="TrueBall Logo" class="logo">
   <h1>TrueBall</h1>
   <p class="tagline">Teste dein Ballgef&uuml;hl</p>
   <p class="desc">
