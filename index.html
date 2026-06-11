@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrueBall - Teste dein Ballgefuehl</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1a8fd1 0%, #43c97e 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.card {
+  background: rgba(255,255,255,0.97);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  max-width: 560px;
+  width: 100%;
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+.logo-emoji {
+  font-size: 5rem;
+  margin-bottom: 1.4rem;
+  display: block;
+}
+h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.4rem; color: #1a1a2e; }
+.tagline { color: #555; font-size: 1.05rem; margin-bottom: 1.5rem; }
+.desc { color: #444; line-height: 1.7; margin-bottom: 1.8rem; font-size: 0.97rem; }
+.badges { margin-bottom: 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; }
+.badge {
+  display: inline-block;
+  background: #f0f7ff;
+  border: 1px solid #b3d4f5;
+  color: #1a6fb5;
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+footer { color: #999; font-size: 0.82rem; margin-top: 0.5rem; }
+footer a { color: #1a6fb5; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="logo-emoji">&#9917;</span>
+  <h1>TrueBall</h1>
+  <p class="tagline">Teste dein Ballgef&uuml;hl</p>
+  <p class="desc">
+    TrueBall ist eine Android-App, die dein Ballgef&uuml;hl auf die Probe stellt &ndash;
+    sch&uuml;ttle dein Ger&auml;t und finde heraus, wann der Ball wirklich im Netz landet.
+    Keine eigenen Server, keine Datenspeicherung.
+  </p>
+  <div class="badges">
+    <span class="badge">Android</span>
+    <span class="badge">Bewegungssensor</span>
+    <span class="badge">Google AdMob</span>
+    <span class="badge">Keine eigenen Server</span>
+  </div>
+  <footer>
+    <a href="privacy.html">Datenschutzerkl&auml;rung / Privacy Policy</a>
+    &nbsp;&middot;&nbsp;
+    <a href="mailto:ets.dev.dd@gmail.com">Kontakt</a>
+  </footer>
+</div>
+</body>
+</html>
